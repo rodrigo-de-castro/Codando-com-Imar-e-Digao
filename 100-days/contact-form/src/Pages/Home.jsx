@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from '../Styles/home';
+import {Contact, Formulario} from '../Styles/home';
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
         <h1>Contact Form</h1>
         <h4>Please fill the text in the fields</h4>
       </header>
-      <form>
+      <Formulario>
         <label htmlFor='name'>
           Your Name: 
           <input id='name' placeholder='Your Full Name'/>
@@ -26,7 +26,7 @@ function Home() {
           <input id='subject' placeholder='Job Inquiry'/>
         </label>
         <button>SEND</button>
-      </form>
+      </Formulario>
     </Contact>    
   )
 }
